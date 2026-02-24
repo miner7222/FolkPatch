@@ -862,4 +862,18 @@ Komutların çalışması için uygulamanın tamamen kapatılıp yeniden açıld
     <string name="settings_vibration_scope_bottom_bar">Sadece alt çubuk</string>
     <string name="search_modules">Modülleri ara...</string>
     <string name="search_scripts">Script ara...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">Önyükleme sırasında otomatik olarak bağlantısı kesilecek bağlama noktalarını yapılandırın</string>
+    <string name="umount_config_title">Umount Yapılandırması</string>
+    <string name="umount_config_enabled">Umount\'u Etkinleştir</string>
+    <string name="umount_config_enabled_summary">Önyükleme sırasında belirtilen bağlama noktalarını otomatik olarak bağlantıyı kes</string>
+    <string name="umount_config_paths_label">Bağlama Noktası Yolları (satır başına bir)</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">Bağlantısı kesilecek her satıra bir bağlama noktası yolu girin</string>
+    <string name="umount_config_save">Kaydet</string>
+    <string name="umount_config_save_confirm">Yapılandırmayı kaydetmeyi onaylıyor musunuz?</string>
+    <string name="umount_config_save_success">Yapılandırma başarıyla kaydedildi</string>
+    <string name="umount_config_save_failed">Yapılandırma kaydedilemedi</string>
 </resources>																	 

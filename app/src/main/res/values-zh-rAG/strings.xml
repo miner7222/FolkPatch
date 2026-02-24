@@ -851,4 +851,18 @@
     <string name="settings_vibration_scope_bottom_bar">仅底部栏喵</string>
     <string name="search_modules">搜索模块喵...</string>
     <string name="search_scripts">搜索脚本喵...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">配置开机自动卸载的挂载点喵</string>
+    <string name="umount_config_title">Umount 配置</string>
+    <string name="umount_config_enabled">启用 Umount</string>
+    <string name="umount_config_enabled_summary">开机自动卸载指定挂载点喵</string>
+    <string name="umount_config_paths_label">挂载点路径（每行一个）喵</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">每行输入一个需要卸载的挂载点路径喵</string>
+    <string name="umount_config_save">保存</string>
+    <string name="umount_config_save_confirm">确认保存配置喵？</string>
+    <string name="umount_config_save_success">配置保存成功喵</string>
+    <string name="umount_config_save_failed">配置保存失败喵</string>
 </resources>

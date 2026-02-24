@@ -847,4 +847,18 @@ Pastikan aplikasi ditutup sepenuhnya dan dimulai ulang untuk menjalankan perinta
     <string name="module">Modul</string>
     <string name="search_modules">Cari modul...</string>
     <string name="search_scripts">Cari skrip...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">Konfigurasi titik mount untuk unmount otomatis saat boot</string>
+    <string name="umount_config_title">Konfigurasi Umount</string>
+    <string name="umount_config_enabled">Aktifkan Umount</string>
+    <string name="umount_config_enabled_summary">Unmount otomatis titik mount yang ditentukan saat boot</string>
+    <string name="umount_config_paths_label">Jalur Titik Mount (satu per baris)</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">Masukkan satu jalur titik mount per baris untuk di-unmount</string>
+    <string name="umount_config_save">Simpan</string>
+    <string name="umount_config_save_confirm">Konfirmasi simpan konfigurasi?</string>
+    <string name="umount_config_save_success">Konfigurasi berhasil disimpan</string>
+    <string name="umount_config_save_failed">Gagal menyimpan konfigurasi</string>
 </resources>

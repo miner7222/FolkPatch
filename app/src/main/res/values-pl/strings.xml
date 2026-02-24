@@ -867,4 +867,18 @@ Upewnij się, że aplikacja jest całkowicie zamknięta i ponownie otwarta, aby 
     <string name="module">Moduł</string>
     <string name="search_modules">Szukaj modułów...</string>
     <string name="search_scripts">Szukaj skryptów...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">Skonfiguruj punkty montowania do automatycznego odmontowania przy uruchamianiu</string>
+    <string name="umount_config_title">Konfiguracja Umount</string>
+    <string name="umount_config_enabled">Włącz Umount</string>
+    <string name="umount_config_enabled_summary">Automatyczne odmontowanie określonych punktów montowania przy uruchamianiu</string>
+    <string name="umount_config_paths_label">Ścieżki punktów montowania (jedna na wiersz)</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">Wprowadź jedną ścieżkę punktu montowania na wiersz do odmontowania</string>
+    <string name="umount_config_save">Zapisz</string>
+    <string name="umount_config_save_confirm">Potwierdzić zapisanie konfiguracji?</string>
+    <string name="umount_config_save_success">Konfiguracja zapisana pomyślnie</string>
+    <string name="umount_config_save_failed">Nie udało się zapisać konfiguracji</string>
 </resources>

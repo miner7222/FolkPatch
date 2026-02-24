@@ -851,4 +851,18 @@
     <string name="module">星之魔法阵</string>
     <string name="search_modules">搜索魔法阵...</string>
     <string name="search_scripts">搜索魔法卷轴...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">配置仪式开始时自动解除的魔法连接点</string>
+    <string name="umount_config_title">Umount 魔法阵设定</string>
+    <string name="umount_config_enabled">启用 Umount</string>
+    <string name="umount_config_enabled_summary">仪式开始时自动解除指定的魔法连接点</string>
+    <string name="umount_config_paths_label">魔法连接点坐标（每行一个）</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">每行输入一个需要解除的魔法连接点坐标</string>
+    <string name="umount_config_save">施展</string>
+    <string name="umount_config_save_confirm">确认施展并保存魔法阵？</string>
+    <string name="umount_config_save_success">魔法施展成功，配置已保存</string>
+    <string name="umount_config_save_failed">魔法施展失败，配置保存失败</string>
 </resources>

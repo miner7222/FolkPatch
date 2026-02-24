@@ -866,4 +866,18 @@ Por favor, certifique-se de fechar completamente o app e reabri-lo para que os c
     <string name="module">Módulo</string>
     <string name="search_modules">Buscar módulos...</string>
     <string name="search_scripts">Buscar scripts...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">Configurar pontos de montagem para desmontar automaticamente na inicialização</string>
+    <string name="umount_config_title">Configuração do Umount</string>
+    <string name="umount_config_enabled">Ativar Umount</string>
+    <string name="umount_config_enabled_summary">Desmontar automaticamente pontos de montagem especificados na inicialização</string>
+    <string name="umount_config_paths_label">Caminhos dos pontos de montagem (um por linha)</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">Digite um caminho de ponto de montagem por linha para desmontar</string>
+    <string name="umount_config_save">Salvar</string>
+    <string name="umount_config_save_confirm">Confirmar salvar configuração?</string>
+    <string name="umount_config_save_success">Configuração salva com sucesso</string>
+    <string name="umount_config_save_failed">Falha ao salvar configuração</string>
 </resources>

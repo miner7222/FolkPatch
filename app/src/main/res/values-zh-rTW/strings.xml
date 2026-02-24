@@ -854,4 +854,18 @@
 
     <string name="search_modules">搜尋模組...</string>
     <string name="search_scripts">搜尋腳本...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">配置開機自動卸載的掛載點</string>
+    <string name="umount_config_title">Umount 配置</string>
+    <string name="umount_config_enabled">啟用 Umount</string>
+    <string name="umount_config_enabled_summary">開機自動卸載指定掛載點</string>
+    <string name="umount_config_paths_label">掛載點路徑（每行一個）</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">每行輸入一個需要卸載的掛載點路徑</string>
+    <string name="umount_config_save">儲存</string>
+    <string name="umount_config_save_confirm">確認儲存配置？</string>
+    <string name="umount_config_save_success">配置儲存成功</string>
+    <string name="umount_config_save_failed">配置儲存失敗</string>
 </resources>

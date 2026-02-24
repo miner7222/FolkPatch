@@ -865,4 +865,18 @@
     <string name="settings_vibration_scope_bottom_bar">Только нижняя панель</string>
     <string name="search_modules">Поиск модулей...</string>
     <string name="search_scripts">Поиск скриптов...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">Настройка точек монтирования для автоматического отключения при загрузке</string>
+    <string name="umount_config_title">Настройка Umount</string>
+    <string name="umount_config_enabled">Включить Umount</string>
+    <string name="umount_config_enabled_summary">Автоматическое отключение указанных точек монтирования при загрузке</string>
+    <string name="umount_config_paths_label">Пути точек монтирования (по одному на строку)</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">Введите один путь точки монтирования для отключения на строку</string>
+    <string name="umount_config_save">Сохранить</string>
+    <string name="umount_config_save_confirm">Подтвердить сохранение конфигурации?</string>
+    <string name="umount_config_save_success">Конфигурация успешно сохранена</string>
+    <string name="umount_config_save_failed">Не удалось сохранить конфигурацию</string>
 </resources>

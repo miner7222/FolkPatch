@@ -851,4 +851,18 @@
     <string name="script_library_log_save_failed">保存烹饪日志失败：%s</string>
     <string name="search_modules">搜索菜品...</string>
     <string name="search_scripts">搜索后厨秘籍...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">配置开炉自动撤回的摆盘位置</string>
+    <string name="umount_config_title">Umount 食谱</string>
+    <string name="umount_config_enabled">启用 Umount</string>
+    <string name="umount_config_enabled_summary">开炉自动撤回指定的摆盘位置</string>
+    <string name="umount_config_paths_label">摆盘位置路径（每行一个）</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">每行输入一个需要撤回的摆盘位置路径</string>
+    <string name="umount_config_save">开吃</string>
+    <string name="umount_config_save_confirm">确认开吃并保存食谱？</string>
+    <string name="umount_config_save_success">开炉成功，食谱保存成功</string>
+    <string name="umount_config_save_failed">厨师长反对，食谱保存失败</string>
 </resources>

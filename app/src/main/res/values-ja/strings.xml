@@ -771,4 +771,18 @@
     <string name="settings_vibration_scope_bottom_bar">下部バーのみ</string>
     <string name="search_modules">モジュールを検索...</string>
     <string name="search_scripts">スクリプトを検索...</string>
+
+    <!-- Umount Service -->
+    <string name="settings_umount_service">Zig Umount</string>
+    <string name="settings_umount_service_summary">起動時に自動的にアンマウントするマウントポイントを設定</string>
+    <string name="umount_config_title">Umount 設定</string>
+    <string name="umount_config_enabled">Umount を有効化</string>
+    <string name="umount_config_enabled_summary">起動時に指定したマウントポイントを自動的にアンマウント</string>
+    <string name="umount_config_paths_label">マウントポイントパス（1行に1つ）</string>
+    <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
+    <string name="umount_config_paths_helper">アンマウントするマウントポイントパスを1行に1つ入力してください</string>
+    <string name="umount_config_save">保存</string>
+    <string name="umount_config_save_confirm">設定を保存しますか？</string>
+    <string name="umount_config_save_success">設定を保存しました</string>
+    <string name="umount_config_save_failed">設定の保存に失敗しました</string>
 </resources>
