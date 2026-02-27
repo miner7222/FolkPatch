@@ -885,11 +885,13 @@ private fun AndroidPatchCard(
     showInstallDialog: MutableState<Boolean>,
     isWallpaperMode: Boolean
 ) {
-    val containerColor = when (apState) {
-        APApplication.State.ANDROIDPATCH_INSTALLED -> MaterialTheme.colorScheme.primaryContainer
-        APApplication.State.ANDROIDPATCH_INSTALLING -> MaterialTheme.colorScheme.secondaryContainer
-        APApplication.State.ANDROIDPATCH_NEED_UPDATE -> MaterialTheme.colorScheme.tertiaryContainer
-        else -> MaterialTheme.colorScheme.surfaceColorAtElevation(1.dp)
+    val containerColor = when {
+        BackgroundConfig.isCustomBackgroundEnabled -> {
+            MaterialTheme.colorScheme.surface.copy(alpha = BackgroundConfig.customBackgroundOpacity)
+        }
+        else -> {
+            MaterialTheme.colorScheme.surfaceColorAtElevation(1.dp)
+        }
     }
 
     Card(
@@ -946,18 +948,6 @@ private fun AndroidPatchCard(
                     text = stringResource(R.string.android_patch),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Medium
-                )
-                Spacer(Modifier.height(4.dp))
-                Text(
-                    text = when (apState) {
-                        APApplication.State.ANDROIDPATCH_INSTALLED -> stringResource(R.string.home_working)
-                        APApplication.State.ANDROIDPATCH_INSTALLING -> stringResource(R.string.home_installing)
-                        APApplication.State.ANDROIDPATCH_NEED_UPDATE -> stringResource(R.string.home_kp_need_update)
-                        APApplication.State.ANDROIDPATCH_UNINSTALLING -> "Uninstalling"
-                        else -> stringResource(R.string.home_not_installed)
-                    },
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
 
